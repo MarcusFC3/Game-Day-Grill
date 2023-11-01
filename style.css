@@ -3,13 +3,34 @@
     padding: 0px;
 }
 
+/* As hex codes */
+
+.color-primary-0 { color: #AA6A39 }	/* Main Primary color */
+.color-primary-1 { color: #FFCFAA }
+.color-primary-2 { color: #D4986A }
+.color-primary-3 { color: #804315 }
+.color-primary-4 { color: #552500 }
+
+.color-secondary-1-0 { color: #AA8339 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FFE2AA }
+.color-secondary-1-2 { color: #D4B06A }
+.color-secondary-1-3 { color: #805B15 }
+.color-secondary-1-4 { color: #553800 }
+
+.color-secondary-2-0 { color: #A7383D }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #FBA7AB }
+.color-secondary-2-2 { color: #D1686E }
+.color-secondary-2-3 { color: #7D151A }
+.color-secondary-2-4 { color: #530004 }
+
+
 body{
-    background-color: rgb(6, 119, 53);
+    background-color: white
 }
 #container{
     margin: 0 auto;
     width:960px;
-    background-color: rgb(154, 147, 255);
+    background-color: #FFCFAA;
 }
 header{
     width: 910px;
@@ -17,6 +38,8 @@ header{
     margin-bottom: 10px;
     text-align:center;
     font-size: 2em;
+    background-color: #804315;
+    color: #AA6A39;
 }
 
 nav{
@@ -25,6 +48,7 @@ nav{
     margin-bottom: 10px;
     display: block;
     font-size:1.25em;
+    background-color:#FFE2AA;
 }
 
 nav li{
@@ -34,15 +58,23 @@ nav li{
 }
 
 nav a:link{
-
+    color: #805B15;
 }
 
 nav a:visited{
-
+    color: #805B15;
 }
 
 nav a:hover{
+    color: #AA8339;
+}
 
+article{
+    width: 940px;
+    height: 600px;
+    padding: 10px;
+    background-color:#D4986A;
+    color: #804315;
 }
 
 aside{
@@ -50,7 +82,8 @@ aside{
     height: 400px;
     padding: 10px;
     float: left;
-    background-color:darkslateblue;
+    background-color:#AA6A39;
+    color: #804315;
 }
 
 section{
@@ -58,7 +91,8 @@ section{
     height:400px;
     padding:10px;
     float: right;
-    background-color: mediumblue;
+    background-color: #AA6A39;
+    color: #804315;
 }
 
 footer{
