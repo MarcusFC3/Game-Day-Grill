@@ -25,7 +25,7 @@
 
 
 body{
-    background-color: white
+
 }
 #container{
     margin: 0 auto;
@@ -98,4 +98,6 @@ section{
 footer{
     clear: both;
     padding: 10px;
+    background-color: #D4B06A;
+    text-align: center;
 }
