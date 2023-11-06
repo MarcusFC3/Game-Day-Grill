@@ -25,7 +25,7 @@
 
 
 body{
-    background-color: white
+
 }
 #container{
     margin: 0 auto;
@@ -75,6 +75,7 @@ article{
     padding: 10px;
     background-color:#D4986A;
     color: #804315;
+    line-height:1.5em;
 }
 
 aside{
@@ -98,8 +99,13 @@ section{
 footer{
     clear: both;
     padding: 10px;
+<<<<<<< HEAD
 }
 
 h4{
     font: bold 1
+=======
+    background-color: #D4B06A;
+    text-align: center;
+>>>>>>> d81f1ba581c5e0d829a1e8f7ff271f16ed36845b
 }
