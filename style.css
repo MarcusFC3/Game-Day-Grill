@@ -30,7 +30,7 @@ body{
 #container{
     margin: 0 auto;
     width:960px;
-    background-color: #FFCFAA;
+    background-color: #552500;
 }
 header{
     width: 910px;
@@ -83,17 +83,19 @@ aside{
     height: 400px;
     padding: 10px;
     float: left;
-    background-color:#AA6A39;
+    background-color:#FFCFAA;
     color: #804315;
+    margin: 0px 10px 0px 10px;
 }
 
 section{
-    width: 710px;
+    width: 690px;
     height:400px;
     padding:10px;
     float: right;
-    background-color: #AA6A39;
+    background-color:#FFE2AA;
     color: #804315;
+    margin: 0px 10px 10px 0px;
 }
 #previewtext{
     margin-top: 5px;
