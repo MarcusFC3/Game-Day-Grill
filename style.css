@@ -48,7 +48,7 @@ nav{
     margin-bottom: 10px;
     display: block;
     font-size:1.25em;
-    background-color:#FFE2AA;
+    background-color:#D4986A;
 }
 
 nav li{
@@ -73,7 +73,7 @@ article{
     width: 940px;
     height: 600px;
     padding: 10px;
-    background-color:#D4986A;
+    background-color:#FFE2AA;
     color: #804315;
     line-height:1.5em;
 }
@@ -95,17 +95,33 @@ section{
     background-color: #AA6A39;
     color: #804315;
 }
+#previewtext{
+    margin-top: 5px;
+    text-align: center;
+    width:250px;
+}
+#hotdogpic{
+    width: 300px;
+    height: 300px;
+    float:right;
+    /* This is NOT the image we will use*/
+    background-image: url("hotdogtest.jpg"); 
+}
+#burgerpic{
+    width: 300px;
+    height: 300px;
+    float:left;
+    /* This is NOT the image we will use*/
+    background-image: url("burgertest.jpg"); 
+}
 
 footer{
     clear: both;
+    text-align: center;
     padding: 10px;
-<<<<<<< HEAD
+    background-color: #D4986A;
 }
 
 h4{
     font: bold 1
-=======
-    background-color: #D4B06A;
-    text-align: center;
->>>>>>> d81f1ba581c5e0d829a1e8f7ff271f16ed36845b
 }
