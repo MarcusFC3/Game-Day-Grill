@@ -43,18 +43,20 @@ header{
 }
 
 nav{
-    width:940px;
+    width:920px;
     padding: 10px;
     margin-bottom: 10px;
     display: block;
     font-size:1.25em;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color:#D4986A;
 }
 
 nav li{
     list-style-type: none;
     display: inline;
-    padding-right: 40px;
+    padding-right: 40px
 }
 
 nav a:link{
@@ -68,7 +70,19 @@ nav a:visited{
 nav a:hover{
     color: #AA8339;
 }
-
+#menuheader{
+    width: 940px; 
+    height: 200px;
+    background-image: url("foodpanoramatest.jpg");
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#headertext{
+    font-size: 2em;
+    color: #FFE2AA;
+    margin-left:15px;
+}
 article{
     width: 940px;
     height: 600px;
@@ -79,8 +93,8 @@ article{
 }
 
 aside{
-    width:200px;
-    height: 400px;
+    width:290px;
+    height: 450px;
     padding: 10px;
     float: left;
     background-color:#FFCFAA;
@@ -89,8 +103,8 @@ aside{
 }
 
 section{
-    width: 690px;
-    height:400px;
+    width: 600px;
+    height:450px;
     padding:10px;
     float: right;
     background-color:#FFE2AA;
@@ -101,6 +115,26 @@ section{
     margin-top: 5px;
     text-align: center;
     width:250px;
+}
+#menuitems{
+    padding-right: 0px;;
+}
+#menuitems li{
+    font-weight: bold;
+    list-style-type: none;
+    display: inline;
+    padding-right:190px;
+    margin-left: 10px;
+   line-height: 2em;
+   font-size: 1em;
+}
+#menucategories li{
+    color: #530004;
+    font-size: 1.35em;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline;
+    padding-right: 190px;
 }
 #hotdogpic{
     width: 300px;
@@ -124,6 +158,8 @@ footer{
     background-color: #D4986A;
 }
 
-h4{
-    font: bold 1
+h3{
+    font-size: 1.35em;
+    font: bold 1;
+    color: #530004;
 }
