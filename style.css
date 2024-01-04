@@ -116,17 +116,16 @@ section{
     text-align: center;
     width:250px;
 }
-#menuitems{
-    padding-right: 0px;;
-}
 #menuitems li{
     font-weight: bold;
     list-style-type: none;
     display: inline;
-    padding-right:190px;
     margin-left: 10px;
    line-height: 2em;
    font-size: 1em;
+}
+#menuitems li :nth-child(2){
+    padding-right: 190px;
 }
 #menucategories li{
     color: #530004;
@@ -136,6 +135,7 @@ section{
     display: inline;
     padding-right: 190px;
 }
+
 #hotdogpic{
     width: 300px;
     height: 300px;
