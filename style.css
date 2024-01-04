@@ -31,7 +31,7 @@ body{
 #container{
     margin: 0 auto;
     width:960px;
-    background-color: #FFCFAA;
+    background-color: #552500;
 }
 header{
     width: 910px;
@@ -49,7 +49,7 @@ nav{
     margin-bottom: 10px;
     display: block;
     font-size:1.25em;
-    background-color:#FFE2AA;
+    background-color:#D4986A;
 }
 
 nav li{
@@ -74,7 +74,7 @@ article{
     width: 940px;
     height: 600px;
     padding: 10px;
-    background-color:#D4986A;
+    background-color:#FFE2AA;
     color: #804315;
     line-height:1.5em;
 }
@@ -84,26 +84,47 @@ aside{
     height: 400px;
     padding: 10px;
     float: left;
-    background-color:#AA6A39;
+    background-color:#FFCFAA;
     color: #804315;
+    margin: 0px 10px 0px 10px;
 }
 
 section{
-    width: 710px;
+    width: 690px;
     height:400px;
     padding:10px;
     float: right;
-    background-color: #AA6A39;
+    background-color:#FFE2AA;
     color: #804315;
+    margin: 0px 10px 10px 0px;
+}
+#previewtext{
+    margin-top: 5px;
+    text-align: center;
+    width:250px;
+}
+#hotdogpic{
+    width: 300px;
+    height: 300px;
+    float:right;
+    /* This is NOT the image we will use*/
+    background-image: url("hotdogtest.jpg"); 
+}
+#burgerpic{
+    width: 300px;
+    height: 300px;
+    float:left;
+    /* This is NOT the image we will use*/
+    background-image: url("burgertest.jpg"); 
 }
 
 footer{
     clear: both;
-    padding: 10px;
-    background-color: #D4B06A;
     text-align: center;
+    padding: 10px;
+    background-color: #D4986A;
 }
 
-h4 {
-    
+h4{
+    font: bold 1
 }
