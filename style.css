@@ -111,29 +111,33 @@ section{
     color: #804315;
     margin: 0px 10px 10px 0px;
 }
+#menurightside{
+    width: 300px;
+    height:400px;
+    float:right;
+    background-color:#FFE2AA;
+    color: #804315;
+    line-height: 2em;
+    font-weight: bold;
+}
 #previewtext{
     margin-top: 5px;
     text-align: center;
     width:250px;
 }
-#menuitems li{
+#menurightside li{
     font-weight: bold;
     list-style-type: none;
-    display: inline;
     margin-left: 10px;
-   line-height: 2em;
+   line-height: 1.9em;
    font-size: 1em;
 }
-#menuitems li :nth-child(2){
-    padding-right: 190px;
-}
-#menucategories li{
-    color: #530004;
-    font-size: 1.35em;
+#menuleftside li{
     font-weight: bold;
     list-style-type: none;
-    display: inline;
-    padding-right: 190px;
+    margin-left: 10px;
+   line-height: 1.9em;
+   font-size: 1em;
 }
 
 #hotdogpic{
@@ -158,8 +162,14 @@ footer{
     background-color: #D4986A;
 }
 
+
 h3{
     font-size: 1.35em;
     font: bold 1;
     color: #530004;
+    display:inline;
+}
+h5{
+    font-size:.83em;
+    display:inline;
 }
