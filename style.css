@@ -84,12 +84,13 @@ nav a:hover{
     margin-left:15px;
 }
 article{
-    width: 940px;
+    width: 920px;
     height: 600px;
     padding: 10px;
     background-color:#FFE2AA;
     color: #804315;
     line-height:1.5em;
+    margin: 10px;
 }
 
 aside{
