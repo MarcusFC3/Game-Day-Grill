@@ -23,10 +23,6 @@
 .color-secondary-2-3 { color: #7D151A }
 .color-secondary-2-4 { color: #530004 }
 
-
-body{
-
-}
 #container{
     scroll-margin: 0;
     margin: 0 auto;
@@ -156,6 +152,9 @@ section{
     float:left;
     /* This is NOT the image we will use*/
     background-image: url("burgertest.jpg"); 
+}
+#applicationcomplete{
+    text-align: center;
 }
 
 footer{

@@ -30,33 +30,52 @@
             Enter your information below to apply for a position at Game Day Grill
             <h2>Personal Information</h2>
             <form id="applicationform" action="submit.html" method="post">
-                <p>First Name: <input type="text" name="firstName" id="firstName"> Last Name:<input type="text" name="lastName" id="lastName"></p>
+                <p>First Name: <input type="text" name="firstName" id="firstName"> Last Name:<input type="text"
+                        name="lastName" id="lastName"></p>
                 <p>Birthday (Example: 03/15/1999) <input type="text" name="birthday" id="birthday"></p>
-                <p>Select Your State: <select name="state" id="state"><option value="state"></option><option for="state">Ohio</option></select></p>
-                <p>Select Your City: <select name="city" id="city"><option value="city"></option><option for="city">Defiance</option></select></p>
+                <p>Select Your State: <select name="state" id="state">
+                        <option value="state"></option>
+                        <option for="state">Ohio</option>
+                    </select></p>
+                <p>Select Your City: <select name="city" id="city">
+                        <option value="city"></option>
+                        <option for="city">Defiance</option>
+                    </select></p>
                 <p>Enter Your Street Address: <input type="text" name="address" id="address"></p>
-                <p>Desired Employment Level: <select name="level" id="level"><option value="level"></option><option for="level">Full Time</option><option for="level">Part Time</option><option for="level">Seasonal/Summer</option></select></p>
-                <h2>Questions</h2> 
+                <p>Desired Employment Level: <select name="level" id="level">
+                        <option value="level"></option>
+                        <option for="level">Full Time</option>
+                        <option for="level">Part Time</option>
+                        <option for="level">Seasonal/Summer</option>
+                    </select></p>
+                <h2>Questions</h2>
                 What Position(s) Are You Interested In?<br>
                 <input type="checkbox" name="waiter" id="waiter">
-                <label for="waiter">Waiter<br></label> 
+                <label for="waiter">Waiter<br></label>
                 <input type="checkbox" name="cashier" id="cashier">
-                <label for="cashier">Cashier<br></label> 
+                <label for="cashier">Cashier<br></label>
                 <input type="checkbox" name="cook" id="cook">
-                <label for="cook">Cook</label> 
-                <br>What Level of Education Do You Have
+                <label for="cook">Cook</label>
+                <br>What Level of Education Do You Have? 
+                <select name="education" id="education">
+                    <option value="education"></option>
+                    <option for="education">Highschool Diploma</option>
+                    <option for="education">Incomplete College Education</option>
+                    <option for="education">Associates Degree(College)</option>
+                    <option for="education">Bachelor's Degree(College)</option>
+                </select>
+                <p>Why Would You Be A Good Fit For Game Day Grill?<br>
+                <textarea name="goodfit" id="goodfit" cols="100" rows="13"></textarea></p>
                 <p><input type="submit" value="Submit"></p>
-                </form>
+            </form>
         </article>
 
         <footer>
-
-            <a href="employment.html" title="Home Page">Employment</a> <a href="contact.html" title="Contact Us">Contact
-                Us</a>
-            <br>
-
-            Copyright &copy; 2023 Game Day Grill
+            <a href="employment.html" title="Home Page">Employment</a>
+            <a href="contact.html" title="Contact Us">Contact Us</a>
+            <br>Copyright &copy; 2023 Game Day Grill
         </footer>
+
 
     </div>
 </body>
