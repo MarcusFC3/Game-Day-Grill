@@ -22,15 +22,17 @@
 .color-secondary-2-2 { color: #D1686E }
 .color-secondary-2-3 { color: #7D151A }
 .color-secondary-2-4 { color: #530004 }
-
+html{
+    scrollbar-gutter: stable;
+}
 #container{
-    scroll-margin: 0;
     margin: 0 auto;
     width:960px;
     background-color: #552500;
 }
 header{
     width: 910px;
+    height: 120px;
     padding:25px;
     margin-bottom: 10px;
     text-align:center;
@@ -83,7 +85,7 @@ nav a:hover{
 }
 article{
     width: 920px;
-    height: 600px;
+    height: 525px;
     padding: 10px;
     background-color:#FFE2AA;
     color: #804315;
