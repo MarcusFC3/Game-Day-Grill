@@ -87,7 +87,7 @@ nav a:hover{
 }
 article{
     width: 920px;
-    height: 525px;
+    height: 550px;
     padding: 10px;
     background-color:#FFE2AA;
     color: #804315;
@@ -135,7 +135,7 @@ section{
    line-height: 1.9em;
    font-size: 1em;
 }
-#menuleftside li{
+.menuleftside li{
     font-weight: bold;
     list-style-type: none;
     margin-left: 10px;
@@ -171,7 +171,7 @@ footer{
 
 h3{
     font-size: 1.35em;
-    font: bold 1;
+    font: bold;
     color: #530004;
     display:inline;
 }
