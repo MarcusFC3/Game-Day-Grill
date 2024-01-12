@@ -23,6 +23,10 @@
 .color-secondary-2-3 { color: #7D151A }
 .color-secondary-2-4 { color: #530004 }
 
+html{
+    scrollbar-gutter: stable;
+}
+
 #container{
     margin: 0 auto;
     width:960px;
