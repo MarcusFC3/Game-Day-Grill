@@ -1,5 +1,5 @@
 <script>
     "use strict";
-
-    const huh = "yes";
+    let maincourse = document.QuerySelector("#maincourse").value
+    if(maincourse == "BLT"){document.write(``)}
 </script>
