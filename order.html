@@ -31,27 +31,31 @@ footer or nav bar-->
             </ul>
         </nav>
 
-        <aside>
-            <h2>Give us a call</h2>
-            419-887-0235
-            <h2>Come See Us In Person</h2>
-            1121 Hotel Dr Defiance, Ohio
-        </aside>
+        <article>
+            <h2>Order Online</h2>
+            Select A Main Course
+            <select name="maincourse" id="maincourse">
+                <option value="maincourse" disabled="true" >Select Your Main Course</option>
+                <option value="maincourse" disabled="true">Brugers:</option>
+                <option value="maincourse">BLT</option>
+                <option value="maincourse">Cheese Burger</option>
+                <option value="maincourse" selected="true">Barbeque Pineapple Burger</option>
+                <option value="maincourse" disabled="true">Steak:</option>
+                <option value="maincourse">Ribeye</option>
+                <option value="maincourse">Sirloin</option>
+                <option value="maincourse" disabled="true">Chicken:</option>
+                <option value="maincourse">Traditional Wings</option>
+                <option value="maincourse">Boneless Wings</option>
+                <option value="maincourse">Tenders</option>
+            </select>
+            <script>
+                "use strict";
+                let maincourse = document.querySelector("#maincourse").value;
+                document.write(`${maincourse}`);
+                if(maincourse == "BLT"){document.write(`Select Your desired Stuff`)};
+            </script>
+        </article>
 
-        <section>
-            <input type="button" class="maincourses" value="BLT">in
-            <div class="menurightside">
-                <script>
-                    "use strict";
-                    let maincourses = document.querySelector(`#maincourses`);
-                   const BLT = () =>{
-                    document.write(`BLT`);
-                   }
-                   $(maincourses).addEventListener("click", BLT);
-                </script>
-            </div>
-        </section>
-        
         <footer>
             <a href="employment.html" title="Home Page">Employment</a> 
             <a href="contact.html" title="Contact Us">Contact Us</a>;
