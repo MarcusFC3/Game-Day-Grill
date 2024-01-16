@@ -31,13 +31,25 @@ footer or nav bar-->
             </ul>
         </nav>
 
-        <aside><h2>Come See Us In Person</h2>
+        <aside>
+            <h2>Give us a call</h2>
+            419-887-0235
+            <h2>Come See Us In Person</h2>
             1121 Hotel Dr Defiance, Ohio
         </aside>
 
         <section>
-            <h2>Give us a call</h2>
-            419-887-0235
+            <input type="button" class="maincourses" value="BLT">in
+            <div class="menurightside">
+                <script>
+                    "use strict";
+                    let maincourses = document.querySelector(`#maincourses`);
+                   const BLT = () =>{
+                    document.write(`BLT`);
+                   }
+                   $(maincourses).addEventListener("click", BLT);
+                </script>
+            </div>
         </section>
         
         <footer>
@@ -51,7 +63,6 @@ footer or nav bar-->
             <noscript> &copy; 2024 Game Day Grill</noscript>
         </footer>
     </div>
-<script src="orderform.js"></script>
 </body>
 
 </html>
