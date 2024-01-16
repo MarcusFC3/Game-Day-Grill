@@ -34,6 +34,12 @@ footer or nav bar-->
         <article>
             <h2>Order Online</h2>
             Select A Main Course
+            <div class="dropdown">
+                <button>Main Courses</button>
+                <div class="dropdownmenu">
+                    <a href="#"></a>
+                </div>
+            </div>
             <select name="maincourse" id="maincourse">
                 <option value="maincourse" disabled="true" >Select Your Main Course</option>
                 <option value="maincourse" disabled="true">Brugers:</option>
@@ -50,9 +56,9 @@ footer or nav bar-->
             </select>
             <script>
                 "use strict";
-                let maincourse = document.querySelector("#maincourse").value;
+                let maincourse = ("#maincourse")[0];
                 document.write(`${maincourse}`);
-                if(maincourse == "BLT"){document.write(`Select Your desired Stuff`)};
+                if(maincourse == "Barbeque Pineapple Burger"){document.write(`Select Your desired Stuff`)};
             </script>
         </article>
 
