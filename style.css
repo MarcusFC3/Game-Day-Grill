@@ -177,7 +177,17 @@ footer{
     padding: 10px;
     background-color: #D4986A;
 }
+footer a:link{
+    color: #530004;
+}
 
+footer a:visited{
+    color: #530004;
+}
+
+footer a:hover{
+    color: #7D151A
+}
 
 h3{
     font-size: 1.35em;
