@@ -128,7 +128,7 @@ section{
     text-align: center;
     width:250px;
 }
-#menurightside li{
+.menurightside li{
     font-weight: bold;
     list-style-type: none;
     margin-left: 10px;
