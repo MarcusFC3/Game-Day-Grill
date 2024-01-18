@@ -23,8 +23,9 @@
 .color-secondary-2-3 { color: #7D151A }
 .color-secondary-2-4 { color: #530004 }
 
-html{
-    scrollbar-gutter: stable;
+body{
+    background-color:rgb(170, 120, 81);
+    scrollbar-gutter: stable; /* find another way*/
 }
 
 #container{
