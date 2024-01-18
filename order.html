@@ -31,34 +31,60 @@ footer or nav bar-->
             </ul>
         </nav>
 
-        <article>
+        <aside>
+            <h2>Alternative Ways To Order</h2>
+            <h4>Phone Number</h3>
+            419-887-0235
+            <h4>Street Address</h4>
+            1121 Hotel Dr Defiance, Ohio
+        </aside>
+
+        <section>
             <h2>Order Online</h2>
-            Select A Main Course
+            Place Your Order Below <br>(no more than five orders may be placed online at a time. If you wish to place more than five orders you must order in person or on the phone)
+            <form name="orderform" action="ordsubmit.html" method="post">
             <select name="maincourse" id="maincourse">
-                <option value="maincourse" disabled="true" >Select Your Main Course</option>
-                <option value="maincourse" disabled="true">Brugers:</option>
+                <option value="maincourse" selected="true" disabled="true">Select Your Main Course</option>
+                <option value="maincourse">None</option>
+                <option value="maincourse" disabled="true">Burgers:</option>
                 <option value="maincourse">BLT</option>
                 <option value="maincourse">Cheese Burger</option>
-                <option value="maincourse" selected="true">Barbeque Pineapple Burger</option>
-                <option value="maincourse" disabled="true">Steak:</option>
-                <option value="maincourse">Ribeye</option>
-                <option value="maincourse">Sirloin</option>
+                <option value="maincourse">Barbeque Pineapple Burger</option>
+                <option value="maincourse" disabled="true">Salads:</option>
+                <option value="maincourse">Chicken Caesar Salad</option>
+                <option value="maincourse">Greek Salad</option>
                 <option value="maincourse" disabled="true">Chicken:</option>
                 <option value="maincourse">Traditional Wings</option>
                 <option value="maincourse">Boneless Wings</option>
                 <option value="maincourse">Tenders</option>
             </select>
-            <script>
-                "use strict";
-                let maincourse = document.querySelector("#maincourse").value;
-                document.write(`${maincourse}`);
-                if(maincourse == "BLT"){document.write(`Select Your desired Stuff`)};
-            </script>
-        </article>
+            
+            <select name="sides">
+                <option value="sides" selected="true" disabled="true">Select Your Side</option>
+                <option value="sides">None</option>
+                <option value="sides">French Fries</option>
+                <option value="sides">Mac and Cheese</option>
+                <option value="sides">Broccoli</option>
+                <option value="sides">Mashed Potatos</option>
+            </select>
+            <select name="drinks">
+                <option value="drinks" selected="true" disabled="true">Select Your Beverage</option>
+                <option value="drinks">None</option>
+                <option value="drinks">Coca-Cola</option>
+                <option value="drinks">Starry</option>
+                <option value="drinks">Apple Juice</option>
+                <option value="drinks">Lemonade</option>
+            </select>
+            <p>
+                <br> Is There Anything Special We Should Do With Your Order?(add or remove ingredients)<br>
+                <textarea name="specialrequest" id="specialrequest" cols="80" rows="10"></textarea>
+            </p>
+        </form>
+    </section>
 
         <footer>
             <a href="employment.html" title="Home Page">Employment</a> 
-            <a href="contact.html" title="Contact Us">Contact Us</a>;
+            <a href="contact.html" title="Contact Us">Contact Us</a>
             <br>
             <script>
                 const today = new Date();
@@ -68,5 +94,4 @@ footer or nav bar-->
         </footer>
     </div>
 </body>
-
 </html>
