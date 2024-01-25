@@ -87,7 +87,7 @@ nav a:hover{
 }
 article{
     width: 920px;
-    height: 550px;
+    height: 500px;
     padding: 10px;
     background-color:#FFE2AA;
     color: #804315;
@@ -155,14 +155,14 @@ section{
 }
 #hotdogpic{
     width: 300px;
-    height: 300px;
+    height: 280px;
     float:right;
     /* This is NOT the image we will use*/
     background-image: url("hotdogtest.jpg"); 
 }
 #burgerpic{
     width: 300px;
-    height: 300px;
+    height: 280px;
     float:left;
     /* This is NOT the image we will use*/
     background-image: url("burgertest.jpg"); 
@@ -186,7 +186,7 @@ footer a:visited{
 }
 
 footer a:hover{
-    color: #7D151A
+    color: #7D151A;
 }
 
 h3{
@@ -201,4 +201,17 @@ h5{
 }
 h6{
     font-size:.83em;
+}
+input{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+aside a:link{
+    color: #A7383D;
+}
+aside a:visited{
+    color: #A7383D;
+}
+aside a:hover{
+    color: #D1686E;
 }

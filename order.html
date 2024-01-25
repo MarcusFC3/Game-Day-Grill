@@ -1,6 +1,3 @@
-<!--Although nav bar and footer are not finished this page will give us a basic outline for every webpage we add to this project. This template will
-allow us to avoid retyping the outline of our web page everytime we want to create a new page. please update this sample with any changes made to the
-footer or nav bar-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,6 +29,8 @@ footer or nav bar-->
         </nav>
 
         <aside>
+            <h2>Reservations are Available!</h2>
+            Just  <a href="contact.html" title="Our Contacts">Contact Us</a>
             <h2>Alternative Ways To Order</h2>
             <h4>Phone Number</h3>
             419-887-0235
@@ -42,7 +41,7 @@ footer or nav bar-->
         <section>
             <h2>Order Online</h2>
             Place Your Order Below <br>(no more than five orders may be placed online at a time. If you wish to place more than five orders you must order in person or on the phone)
-            <form name="orderform" action="ordsubmit.html" method="post">
+            <form name="orderform" action="ordpayment.html" method="post">
             <select name="maincourse" id="maincourse">
                 <option value="maincourse" selected="true" disabled="true">Select Your Main Course</option>
                 <option value="maincourse">None</option>
@@ -87,6 +86,7 @@ footer or nav bar-->
                 <option value="maincourse">Barbeque Pineapple Burger</option>
                 <option value="maincourse" disabled="true">Salads:</option>
                 <option value="maincourse">Chicken Caesar Salad</option>
+                <option value="maincourse">Greek Salad</option>
                 <option value="maincourse" disabled="true">Chicken:</option>
                 <option value="maincourse">8 pc Traditional Wings</option>
                 <option value="maincourse">8 pc Boneless Wings</option>
@@ -227,7 +227,7 @@ footer or nav bar-->
                 Phone Number: <input type="text" name="firstName" id="firstName"><br>
                 Email Address: <input type="text" name="lastName" id="lastName">
             </p>
-            <input type="submit" value="Place Order">
+            <input type="submit" value="Next">
         </form>
     </section>
 

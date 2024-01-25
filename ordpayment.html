@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta Charset="UTF-8">
+    <meta name="keywords" content="Game Day Grill, Resturaunt, Sports Gril, Ohio, Food, Burger, Chicken, Sandwich, Grill, Sports, Football, Soccer, Baseball, Basketball, Hiring">
+    <meta name="descripiton" content="Enjoy watching sports and eating at Game Day Grill!">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Orders | Game Day Grill</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header> 
+            <h1>Game Day Grill</h1>
+            <h2>Order</h2>
+       </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="menu.html" title="Menu Page">Menu</a></li>
+                <li><a href="order.html" title="Order Form">Order</a></li>
+                <li><a href="events.html" title="Events Page">Events</a></li>
+                <li><a href="contact.html" title="Our Contacts">Contact Us</a></li>
+                <li><a href="aboutus.html" title="About Us">About Us</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            <h2>Alternative Ways To Order</h2>
+            <h4>Phone Number</h3>
+            419-887-0235
+            <h4>Street Address</h4>
+            1121 Hotel Dr Defiance, Ohio
+        </aside>
+
+        <section>
+            <h2>Payment Method</h2>
+            Enter your credit/debit card information below, or pay in person<br>
+            
+            <form name="orderform" action="ordsubmit.html" method="post">
+                <input type="submit" value="Place Order Without Card">
+            
+                <p>Cardholder Name: <input type="text" name="cardholder" id="cardholder"><br></p>
+                <p>Card Number: <input type="text" name="cardnumber" id="cardnumber"><br></p>
+                <p>Expiration Date: <input type="text" name="expirydate" id="expirydate"><br></p>
+                <p>Security Code: <input type="text" name="securitycode" id="securitycode"><br></p>
+                <p>Billing Address: <input type="text" name="billingaddress" id="billingaddress"><br></p>
+            
+            <input type="submit" value="Place Order">
+        </form>
+        <form name="orderform" action="order.html" method="post">
+            <input type="submit" value="Cancel" action="order.html">
+        </form>
+    </section>
+
+        <footer>
+            <a href="employment.html" title="Home Page">Employment</a> 
+            <a href="contact.html" title="Contact Us">Contact Us</a>
+            <br>
+            <script>
+                const today = new Date();
+                document.write(`Copyright \u00A9 ${today.getFullYear()} Game Day Grill`);
+            </script>
+            <noscript> &copy; 2024 Game Day Grill</noscript>
+        </footer>
+    </div>
+</body>
+</html>
