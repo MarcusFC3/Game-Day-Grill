@@ -33,9 +33,9 @@ body{
     background-color: #552500;
 }
 header{
-    width: 910px;
-    height: 120px;
-    padding:25px;
+    width: 920px;
+    height: 115px;
+    padding:20px;
     margin-bottom: 10px;
     text-align:center;
     font-size: 2em;
@@ -74,7 +74,7 @@ nav a:hover{
 }
 #menuheader{
     width: 940px; 
-    height: 200px;
+    height: 160px;
     background-image: url("foodpanoramatest.jpg");
     margin-bottom: 10px;
     margin-left: 10px;
@@ -82,12 +82,12 @@ nav a:hover{
 }
 #headertext{
     font-size: 2em;
-    color: #FFE2AA;
+    color: #530004;
     margin-left:15px;
 }
 article{
     width: 920px;
-    height: 500px;
+    height: 465px;
     padding: 10px;
     background-color:#FFE2AA;
     color: #804315;
